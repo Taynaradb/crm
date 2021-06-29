@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.ds{
+    background-color: #1E99F0;
+}
+
+.whole{
+    height: 100vh;
+}
+
+.nav-link{
+    color: white;
+}
+
+hr{
+    background-color: white;
+}
+
+.white:hover{
+    color: white;
+    font-size: 17px;
+}
