@@ -18,13 +18,13 @@
             <div class="row whole">
                 <div class="col-2 ds text-center">
                     <h5 class="mt-5 text-white">
-                        <img src="../img/drlogo.png"> Dr. Médicos
+                    <a class="text-decoration-none text-white" href="../index.php"><img src="../img/drlogo.png"></img> Dr. Médicos</a>
                     </h5>
                     <hr>
                     <ul class="nav nav-pills flex-column mb-auto">
                         <li class="nav-item">
                             <a href="../medicos/medicos-listar.php" class="white nav-link">
-                                Cadstro de médicos
+                            Cadastro de médicos
                             </a>
                         </li>
                         <li>
@@ -33,8 +33,8 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="white nav-link">
-                                Agendamento de consultas
+                            <a href="../agenda/agenda-listar.php" class="white nav-link">
+                                Agendamento
                             </a>
                         </li>
                     </ul>

@@ -15,11 +15,12 @@ $listaMedicos = mysqli_query($conn, $sqlBusca);
                     <table class="table table-hover">
                         <thead>
                             <tr>
-                                <th scope="col">#</th>
-                                <th scope="col">Name</th>
-                                <th scope="col">CRM</th>
-                                <th scope="col">Telefone</th>
-                                <th scope="col">Especialidade</th>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>CRM</th>
+                                <th>Telefone</th>
+                                <th>Especialidade</th>
+                                <th class="text-center"><img class="justify-content-center" src="../img/tools.png"></img></th>
                             </tr>
                         </thead>
                         <tbody>
@@ -28,9 +29,11 @@ $listaMedicos = mysqli_query($conn, $sqlBusca);
                             echo "<tr>";
                             echo "<td>{$medico['IDmedico']}</td>";
                             echo "<td>{$medico['nome']}</td>";
-                            echo "<td>{$medico['telefone']}</td>";
                             echo "<td>{$medico['crm']}</td>";
+                            echo "<td>{$medico['telefone']}</td>";
                             echo "<td>{$medico['especialidade']}</td>";
+                            echo "<td class='text-center'><a href='medicos-form-alterar.php?id={$medico['IDmedico']}'><img src='../img/editar.png'></img></a>
+                             <a href='medicos-excluir.php?id={$medico['IDmedico']}'><img src='../img/delete.png'></img></a></td>";
                             echo "</tr>";
                         }
                         ?>

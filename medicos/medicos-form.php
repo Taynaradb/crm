@@ -8,7 +8,7 @@ include "../includes/config.php";
 
 
 <div class="container mt-5">
-    <form action="medicos-form" method="post" action="medicos-inserir.php">
+    <form name="medicos-form" method="post" action="medicos-inserir.php">
         <div class="row">
             <div class="col">
                 <label for="nome">Nome:</label>
@@ -27,7 +27,7 @@ include "../includes/config.php";
             <div class="col">
                 <label for="especialidade">Especialidade:</label>
                 <select class="form-control" name="especialidade">
-                    <option  disabled>Selecione um:</option>
+                    <option selected disabled>Selecione um:</option>
                     <option value="Cardiologista">Cardiologista</option>
                     <option value="Nutricionista">Nutricionista</option>
                     <option value="Gineocologista">Gineocologista</option>
