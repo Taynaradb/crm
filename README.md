@@ -13,3 +13,10 @@
     /* ID ON IMAGE FOR THE COMMAND && ONMOUSEOVER ONMOUSEOUT ON THE LINK */ 
     }
 </script>
+
+
+ @media (max-width: 991px){
+      .class img{
+        padding/margin
+      }
+    }
