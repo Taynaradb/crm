@@ -1,7 +1,7 @@
 # crm
 
 <li class="nav-item">
-  <a onmouseover = "changePic1()" onmouseout="changePic2()" id="instagram"><img id="insta" src="images/instagram"></img></a>
+  <a onmouseover = "changePic1()" onmouseout="changePic2()" id="instagram"><img id="insta" src=""></img></a>
 </li>
 
 <script>
